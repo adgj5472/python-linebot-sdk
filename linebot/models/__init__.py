@@ -43,6 +43,8 @@ from .events import (  # noqa
     UnfollowEvent,
     JoinEvent,
     LeaveEvent,
+    MemberJoinEvent,
+    MemberLeaveEvent,
     PostbackEvent,
     AccountLinkEvent,
     BeaconEvent,
